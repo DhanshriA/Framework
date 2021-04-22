@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AutoDemos Test" default="create" basedir=".">
+
+<target name="delete">
+<delete dir="bin">
+</delete>
+<delete dir="src">
+</delete>
+<delete dir="lib">
+</delete>
+<delete dir="test-output">
+</delete>
+</target>
+
+
+
+
+<target name="create" depends="delete">
+<mkdir dir="bin" />
+<mkdir dir="src" />
+<mkdir dir="lib" />
+<mkdir dir="test-output" />
+</target>
+
+
+
+
+
+
+
+
+
+
+
+
+</project>
